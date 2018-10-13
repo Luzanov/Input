@@ -1,0 +1,443 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E50DD56B201729560056E57E /* MousePeripheralHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50DD56A201729560056E57E /* MousePeripheralHandler.swift */; };
+		E50DD56F20172B190056E57E /* PeripheralHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E50DD56E20172B190056E57E /* PeripheralHandler.swift */; };
+		E526225F201C83F600389C71 /* InputInternal+InputDelegates.swift in Sources */ = {isa = PBXBuildFile; fileRef = E526225E201C83F600389C71 /* InputInternal+InputDelegates.swift */; };
+		E560D975206C211F00063EE8 /* MouseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560D974206C211F00063EE8 /* MouseViewController.swift */; };
+		E560D977206C251D00063EE8 /* InputBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E560D976206C251D00063EE8 /* InputBaseViewController.swift */; };
+		E56F56AE201DCBB4009AD3DB /* Input.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E56F56AD201DCBB4009AD3DB /* Input.storyboard */; };
+		E57963672059C70900FB665D /* InputInternal+KeyboardPeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E57963662059C70900FB665D /* InputInternal+KeyboardPeripheralDelegate.swift */; };
+		E5897A7A20598E6B0034EB1F /* KeyboardPeripheralHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5897A7920598E6B0034EB1F /* KeyboardPeripheralHandler.swift */; };
+		E5A50914201CB552005A022D /* InputInternal+MousePeripheralDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5A50913201CB552005A022D /* InputInternal+MousePeripheralDelegate.swift */; };
+		E5B26494206AA373008B55C5 /* InternalTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5B26493206AA373008B55C5 /* InternalTypes.swift */; };
+		E5C52A9520750F9D008D0950 /* PeripheralsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C52A9220750F9D008D0950 /* PeripheralsViewCell.swift */; };
+		E5C52A9620750F9D008D0950 /* PeripheralsViewFlowLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C52A9320750F9D008D0950 /* PeripheralsViewFlowLayout.swift */; };
+		E5C52A9720750F9D008D0950 /* PeripheralsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5C52A9420750F9D008D0950 /* PeripheralsViewController.swift */; };
+		E5E7EC202025D27700D70F0E /* InputWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5E7EC1F2025D27700D70F0E /* InputWindow.swift */; };
+		E5E7EC242025DA4700D70F0E /* Input.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E5E7EC232025DA4700D70F0E /* Input.xcassets */; };
+		E5F082E82069760800C7EF79 /* PeripheralLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F082E72069760800C7EF79 /* PeripheralLists.swift */; };
+		E5F4EDC720187C84007064B9 /* InputInternal.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F4EDC620187C84007064B9 /* InputInternal.swift */; };
+		E5F958532015DD0F006EFBCD /* Input.h in Headers */ = {isa = PBXBuildFile; fileRef = E5F958512015DD0F006EFBCD /* Input.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5F9585B2015DD86006EFBCD /* strip.sh in Resources */ = {isa = PBXBuildFile; fileRef = E5F9585A2015DD86006EFBCD /* strip.sh */; };
+		E5F9585D2015DDD0006EFBCD /* Input.m in Sources */ = {isa = PBXBuildFile; fileRef = E5F9585C2015DDD0006EFBCD /* Input.m */; };
+		E5F9585F2015E069006EFBCD /* Input.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F9585E2015E069006EFBCD /* Input.swift */; };
+		E5F958612015E1E0006EFBCD /* InputTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5F958602015E1E0006EFBCD /* InputTypes.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		E50DD56A201729560056E57E /* MousePeripheralHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MousePeripheralHandler.swift; sourceTree = "<group>"; };
+		E50DD56E20172B190056E57E /* PeripheralHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralHandler.swift; sourceTree = "<group>"; };
+		E526225E201C83F600389C71 /* InputInternal+InputDelegates.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputInternal+InputDelegates.swift"; sourceTree = "<group>"; };
+		E560D974206C211F00063EE8 /* MouseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseViewController.swift; sourceTree = "<group>"; };
+		E560D976206C251D00063EE8 /* InputBaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputBaseViewController.swift; sourceTree = "<group>"; };
+		E56F56AD201DCBB4009AD3DB /* Input.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Input.storyboard; sourceTree = "<group>"; };
+		E57963662059C70900FB665D /* InputInternal+KeyboardPeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputInternal+KeyboardPeripheralDelegate.swift"; sourceTree = "<group>"; };
+		E5897A7920598E6B0034EB1F /* KeyboardPeripheralHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardPeripheralHandler.swift; sourceTree = "<group>"; };
+		E5A50913201CB552005A022D /* InputInternal+MousePeripheralDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "InputInternal+MousePeripheralDelegate.swift"; sourceTree = "<group>"; };
+		E5B26493206AA373008B55C5 /* InternalTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InternalTypes.swift; sourceTree = "<group>"; };
+		E5C52A9220750F9D008D0950 /* PeripheralsViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralsViewCell.swift; sourceTree = "<group>"; };
+		E5C52A9320750F9D008D0950 /* PeripheralsViewFlowLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralsViewFlowLayout.swift; sourceTree = "<group>"; };
+		E5C52A9420750F9D008D0950 /* PeripheralsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PeripheralsViewController.swift; sourceTree = "<group>"; };
+		E5E7EC1F2025D27700D70F0E /* InputWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputWindow.swift; sourceTree = "<group>"; };
+		E5E7EC232025DA4700D70F0E /* Input.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Input.xcassets; sourceTree = "<group>"; };
+		E5F082E72069760800C7EF79 /* PeripheralLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeripheralLists.swift; sourceTree = "<group>"; };
+		E5F4EDC620187C84007064B9 /* InputInternal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputInternal.swift; sourceTree = "<group>"; };
+		E5F9584E2015DD0F006EFBCD /* Input.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Input.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E5F958512015DD0F006EFBCD /* Input.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Input.h; sourceTree = "<group>"; };
+		E5F958522015DD0F006EFBCD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E5F9585A2015DD86006EFBCD /* strip.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = strip.sh; sourceTree = "<group>"; };
+		E5F9585C2015DDD0006EFBCD /* Input.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Input.m; sourceTree = "<group>"; };
+		E5F9585E2015E069006EFBCD /* Input.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Input.swift; sourceTree = "<group>"; };
+		E5F958602015E1E0006EFBCD /* InputTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputTypes.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E5F9584A2015DD0F006EFBCD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E5C52A9120750F9D008D0950 /* PeripheralsViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E5C52A9220750F9D008D0950 /* PeripheralsViewCell.swift */,
+				E5C52A9420750F9D008D0950 /* PeripheralsViewController.swift */,
+				E5C52A9320750F9D008D0950 /* PeripheralsViewFlowLayout.swift */,
+			);
+			path = PeripheralsViewController;
+			sourceTree = "<group>";
+		};
+		E5E7EC1C2025D25F00D70F0E /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				E5E7EC1F2025D27700D70F0E /* InputWindow.swift */,
+				E560D976206C251D00063EE8 /* InputBaseViewController.swift */,
+				E560D974206C211F00063EE8 /* MouseViewController.swift */,
+				E5C52A9120750F9D008D0950 /* PeripheralsViewController */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		E5F958442015DD0E006EFBCD = {
+			isa = PBXGroup;
+			children = (
+				E5F958502015DD0F006EFBCD /* Input */,
+				E5F9584F2015DD0F006EFBCD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E5F9584F2015DD0F006EFBCD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E5F9584E2015DD0F006EFBCD /* Input.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E5F958502015DD0F006EFBCD /* Input */ = {
+			isa = PBXGroup;
+			children = (
+				E5F9585E2015E069006EFBCD /* Input.swift */,
+				E5F4EDC620187C84007064B9 /* InputInternal.swift */,
+				E526225E201C83F600389C71 /* InputInternal+InputDelegates.swift */,
+				E5A50913201CB552005A022D /* InputInternal+MousePeripheralDelegate.swift */,
+				E57963662059C70900FB665D /* InputInternal+KeyboardPeripheralDelegate.swift */,
+				E50DD56E20172B190056E57E /* PeripheralHandler.swift */,
+				E5F082E72069760800C7EF79 /* PeripheralLists.swift */,
+				E50DD56A201729560056E57E /* MousePeripheralHandler.swift */,
+				E5897A7920598E6B0034EB1F /* KeyboardPeripheralHandler.swift */,
+				E5B26493206AA373008B55C5 /* InternalTypes.swift */,
+				E5F958602015E1E0006EFBCD /* InputTypes.swift */,
+				E5E7EC1C2025D25F00D70F0E /* UI */,
+				E56F56AD201DCBB4009AD3DB /* Input.storyboard */,
+				E5E7EC232025DA4700D70F0E /* Input.xcassets */,
+				E5F958592015DD5F006EFBCD /* Supporting Files */,
+			);
+			path = Input;
+			sourceTree = "<group>";
+		};
+		E5F958592015DD5F006EFBCD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E5F958512015DD0F006EFBCD /* Input.h */,
+				E5F9585C2015DDD0006EFBCD /* Input.m */,
+				E5F9585A2015DD86006EFBCD /* strip.sh */,
+				E5F958522015DD0F006EFBCD /* Info.plist */,
+			);
+			path = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E5F9584B2015DD0F006EFBCD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F958532015DD0F006EFBCD /* Input.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		E5F9584D2015DD0F006EFBCD /* Input */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E5F958562015DD0F006EFBCD /* Build configuration list for PBXNativeTarget "Input" */;
+			buildPhases = (
+				E5F958492015DD0F006EFBCD /* Sources */,
+				E5F9584A2015DD0F006EFBCD /* Frameworks */,
+				E5F9584B2015DD0F006EFBCD /* Headers */,
+				E5F9584C2015DD0F006EFBCD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Input;
+			productName = Input;
+			productReference = E5F9584E2015DD0F006EFBCD /* Input.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E5F958452015DD0E006EFBCD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = LuzanovRoman;
+				TargetAttributes = {
+					E5F9584D2015DD0F006EFBCD = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 0920;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = E5F958482015DD0E006EFBCD /* Build configuration list for PBXProject "Input" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E5F958442015DD0E006EFBCD;
+			productRefGroup = E5F9584F2015DD0F006EFBCD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5F9584D2015DD0F006EFBCD /* Input */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E5F9584C2015DD0F006EFBCD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5F9585B2015DD86006EFBCD /* strip.sh in Resources */,
+				E5E7EC242025DA4700D70F0E /* Input.xcassets in Resources */,
+				E56F56AE201DCBB4009AD3DB /* Input.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E5F958492015DD0F006EFBCD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E5A50914201CB552005A022D /* InputInternal+MousePeripheralDelegate.swift in Sources */,
+				E560D977206C251D00063EE8 /* InputBaseViewController.swift in Sources */,
+				E5C52A9620750F9D008D0950 /* PeripheralsViewFlowLayout.swift in Sources */,
+				E57963672059C70900FB665D /* InputInternal+KeyboardPeripheralDelegate.swift in Sources */,
+				E50DD56B201729560056E57E /* MousePeripheralHandler.swift in Sources */,
+				E5F9585F2015E069006EFBCD /* Input.swift in Sources */,
+				E50DD56F20172B190056E57E /* PeripheralHandler.swift in Sources */,
+				E5F4EDC720187C84007064B9 /* InputInternal.swift in Sources */,
+				E5C52A9520750F9D008D0950 /* PeripheralsViewCell.swift in Sources */,
+				E5E7EC202025D27700D70F0E /* InputWindow.swift in Sources */,
+				E5F9585D2015DDD0006EFBCD /* Input.m in Sources */,
+				E5C52A9720750F9D008D0950 /* PeripheralsViewController.swift in Sources */,
+				E5F958612015E1E0006EFBCD /* InputTypes.swift in Sources */,
+				E5897A7A20598E6B0034EB1F /* KeyboardPeripheralHandler.swift in Sources */,
+				E560D975206C211F00063EE8 /* MouseViewController.swift in Sources */,
+				E5B26494206AA373008B55C5 /* InternalTypes.swift in Sources */,
+				E526225F201C83F600389C71 /* InputInternal+InputDelegates.swift in Sources */,
+				E5F082E82069760800C7EF79 /* PeripheralLists.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		E5F958542015DD0F006EFBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E5F958552015DD0F006EFBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E5F958572015DD0F006EFBCD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6Q854AZ8Q5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Input/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzanovroman.Input;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E5F958582015DD0F006EFBCD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				CODE_SIGN_STYLE = Automatic;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 6Q854AZ8Q5;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = "$(SRCROOT)/Input/Supporting Files/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_BUNDLE_IDENTIFIER = com.luzanovroman.Input;
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E5F958482015DD0E006EFBCD /* Build configuration list for PBXProject "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F958542015DD0F006EFBCD /* Debug */,
+				E5F958552015DD0F006EFBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E5F958562015DD0F006EFBCD /* Build configuration list for PBXNativeTarget "Input" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5F958572015DD0F006EFBCD /* Debug */,
+				E5F958582015DD0F006EFBCD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E5F958452015DD0E006EFBCD /* Project object */;
+}
